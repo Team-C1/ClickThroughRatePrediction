@@ -1,1 +1,4 @@
 # ClickThroughRatePrediction
+This project focuses on building a machine learning model to predict the probability of a user clicking on an online advertisement — also known as Click-Through Rate (CTR) prediction. CTR is a crucial metric in digital advertising, helping advertisers target users effectively, maximize return on investment (ROI), and improve overall campaign performance.
+
+The model uses a large-scale clickstream dataset containing user interactions, ad metadata, and anonymized categorical features. We perform extensive exploratory data analysis (EDA), feature engineering, and apply state-of-the-art gradient boosting algorithms (LightGBM and XGBoost) to train predictive models. The model's performance is evaluated using log loss, a standard metric for probabilistic classification tasks.
